@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pola Hidup - Cek GGL Harianmu
 
-## Getting Started
+Aplikasi web sederhana untuk membantu Anda memantau asupan **Gula, Garam (Natrium), dan Lemak (GGL)** harian sesuai dengan anjuran Kementerian Kesehatan RI.
 
-First, run the development server:
+## 🚀 Fitur Utama
+
+- **Pemantauan Real-time**: Masukkan nilai nutrisi dari label makanan dan lihat sisa kuota harian Anda secara instan.
+- **Kalkulasi Sajian**: Menghitung otomatis total nutrisi berdasarkan rasio jumlah sajian per kemasan dan jumlah yang dikonsumsi.
+- **Indikator Visual**: Status warna (Emerald, Amber, Red) untuk memberikan peringatan dini jika konsumsi mendekati atau melampaui batas harian.
+- **Sesuai Standar Kemenkes**: Mengacu pada Permenkes No. 30 Tahun 2013 tentang Pencantuman Informasi Kandungan Gula, Garam, dan Lemak.
+
+## 📊 Batas Harian (G4-G1-L5)
+
+Aplikasi ini menggunakan standar batas konsumsi harian per orang:
+- **Gula**: 50 gram (setara 4 sendok makan)
+- **Natrium (Garam)**: 2000 mg (setara 1 sendok teh garam)
+- **Lemak**: 67 gram (setara 5 sendok makan minyak)
+
+## 🛠️ Teknologi yang Digunakan
+
+- [Next.js](https://nextjs.org/) (App Router)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Shadcn UI](https://ui.shadcn.com/)
+- [Lucide React](https://lucide.dev/) (Icons)
+
+## 🏁 Memulai
+
+### Prasyarat
+
+Pastikan Anda sudah menginstal Node.js di komputer Anda.
+
+### Instalasi
+
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/username/pola-hidup.git
+   ```
+
+2. Masuk ke direktori proyek:
+   ```bash
+   cd pola-hidup
+   ```
+
+3. Instal dependensi:
+   ```bash
+   npm install
+   ```
+
+### Menjalankan Server Lokal
+
+Jalankan perintah berikut untuk memulai server pengembangan:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📄 Lisensi
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Proyek ini dibangun untuk tujuan edukasi dan kesadaran kesehatan masyarakat.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+Built with ❤️ for a healthier life.
